@@ -1,9 +1,13 @@
-const messages = [
-  "C is fun",
-  "Python is cool",
-  "JavaScript is amazing"
-];
 
-for (let i = 0; i < messages.length; i++) {
-  console.log(messages[i]);
+
+const count = parseInt(process.argv[2]);
+
+if (isNaN(count)) {
+  console.log("Missing number of occurrences");
+} else {
+  let i = 0;
+  while (i < count) {
+    console.log("C is fun");
+    i++;
+  }
 }
