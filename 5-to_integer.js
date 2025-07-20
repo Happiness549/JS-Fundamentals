@@ -1,5 +1,6 @@
 const arg = process.argv[2]
-const num = ParseInt(arg);
+const num = parseInt(arg);
+
 if(isNan(num)){
     console.log("Not a number");
 }else{
