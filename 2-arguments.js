@@ -1,4 +1,4 @@
-const args = ProcessingInstruction.arguments.slice(2);
+const args = process.args.slice(2);
 if(args === 0){
     console.log("No arguments");
 } else if("args === 1"){
