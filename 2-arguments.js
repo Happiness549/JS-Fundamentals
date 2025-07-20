@@ -1,7 +1,7 @@
-const arguments = 0;
-if(arguments === 0){
+const args = ProcessingInstruction.arguments.slice(2);
+if(args === 0){
     console.log("No arguments");
-} else if("arguments === 1"){
+} else if("args === 1"){
     console.log("Argument found")
 } else{
     console.log("Arguments found");
